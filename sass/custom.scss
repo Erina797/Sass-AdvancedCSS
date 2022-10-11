@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+$font-family-base: 'Cedarville Cursive', cursive;
+
+// Create your own map
+$purple:        #cf649a;
+$dark:           black;
+
+// Merge the maps
+$theme-colors: (
+  
+  "purple":     $purple,
+  "dark":       $dark
+) ;
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+
+.flex {
+    width: 100vw;
+    height: 100vh;
+    @extend .d-flex;
+    @extend .flex-column;
+    @extend .align-items-center;
+    @extend .justify-content-center;
+   
+}
+
+
+
+
+
